@@ -14,6 +14,8 @@ var assert = require('assert');
 
 describe('Mathematical Operations - Test Suite', function(){
 
+    this.timeout(500);
+
 
     it('Addition of two variables', function(){
         var a = 10;
@@ -57,4 +59,6 @@ describe('Mathematical Operations - Test Suite', function(){
         assert.equal(c,1);
 
     });
+
+    it('This is a test for Pending Test Feature')
 });
